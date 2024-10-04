@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+}
+fieldset{
+    width: 70%;
+    margin: auto;
+}
+.contenedor{
+    display: flex;
+    margin: auto;
+}
+p{
+    padding: 1vh;
+}
+legend{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+}
+.morado{
+    background-color: rgb(166, 141, 166);
+}
+.azul{
+    background-color: rgb(133, 133, 233);
+}
+.verde{
+    background-color: rgb(83, 121, 83);
+}
+.mar-left{
+    margin-left: 7vh;
+}

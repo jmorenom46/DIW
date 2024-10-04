@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <h2>
+      INFORMACION DE ACCESO A<br />LOS CICLOS FORMATIVOS DE GRADO SUPERIOR
+    </h2>
+    <form method="post" action="google.com">
+      <fieldset class="morado">
+        <legend>Datos Personales</legend>
+        <div class="contenedor">
+          <p>
+            <label for="fnombre">Nombre:</label><br />
+            <input type="text" name="nombre" placeholder="Nombre" required />
+          </p>
+          <p>
+            <label for="fapell">Apellidos:</label><br />
+            <input
+              type="text"
+              name="apellidos"
+              placeholder="Apellidos"
+              required
+            />
+          </p>
+          <p>
+            <label for="fdni">DNI:</label><br />
+            <input type="text" name="dni" placeholder="DNI" required />
+          </p>
+        </div>
+        <div class="contenedor">
+          <p>
+            <label for="flnacimiento">Lugar de nacimiento:</label><br />
+            <input type="text" name="lugarNacimiento" required />
+          </p>
+          <p>
+            <label for="fprovincia">Provincia:</label><br />
+            <select id="provincia" name="provincia">
+              <option value="Caceres">Caceres</option>
+            </select>
+          </p>
+          <p>
+            <label for="fdni">Fecha de Nacimiento:</label><br />
+            <input type="date" name="nacimiento" required />
+          </p>
+        </div>
+        <div class="contenedor">
+          <p>
+            <label for="fdireccion">Dirección:</label><br />
+            <input type="text" name="direccion" style="width: 47vh" required />
+          </p>
+          <p>
+            <label for="fpostal">Código Postal:</label><br />
+            <input type="number" name="postal" required />
+          </p>
+        </div>
+      </fieldset>
+      <fieldset class="azul">
+        <legend>Forma de Acceso</legend>
+
+        <input type="radio" name="directo" value="directo" /><label
+          >Directo<br />
+        </label>
+        <input
+          class="mar-left"
+          type="radio"
+          name="bachillerato"
+          value="bachillerato"
+        /><label>Bachillerato</label> <input type="text" name="bachill" /><br />
+        <input
+          class="mar-left"
+          type="radio"
+          name="universidad"
+          value="universidad"
+        /><label>Universidad<br /> </label>
+
+        <input
+          class="mar-left"
+          type="radio"
+          name="gradoM"
+          value="gradoM"
+        /><label>Grado Medio</label>
+        <input type="text" name="gradoMedio" /><br />
+        <input class="mar-left" type="radio" name="otros" value="otros" /><label
+          >Otros (especifique)</label
+        >
+        <input type="text" name="Otros" /><br />
+
+        <input type="radio" name="prueba" value="prueba" /><label
+          >Prueba Libre</label
+        >
+      </fieldset>
+      <fieldset class="verde">
+        <legend>Documentos Adjuntados</legend>
+        <input
+          type="checkbox"
+          name="fotocopiaDNI"
+          id="fotocopiaDNI"
+          value="fotocopiaDNI"
+        /><label>Fotocopia DNI</label>
+        <input
+          type="checkbox"
+          name="certificado"
+          id="certificado"
+          value="certificado"
+        /><label>Certificado Académico</label><br />
+        <input
+          type="checkbox"
+          name="otrosdoc"
+          id="otrosdoc"
+          value="otrosdoc"
+        /><label>Otros documentos (especifique)</label>
+        <input type="text" name="docs" id="docs" />
+      </fieldset>
+    </form>
+  </body>
+</html>
