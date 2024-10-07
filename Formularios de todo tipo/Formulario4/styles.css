@@ -1,0 +1,13 @@
+label{
+    width: 10vh;
+}
+input{
+    width: 10vh;
+}
+p{
+    margin: auto;
+    display: flex;
+}
+.espacio{
+    margin-bottom: 5vh;
+}

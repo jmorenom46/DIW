@@ -1,0 +1,16 @@
+fieldset{
+    width: 40%;
+}
+.col{
+    margin: auto;
+    display:flex ;
+}
+.field1{
+    width: 30%;
+}
+.field2{
+    width: 10%;
+}
+input{
+    margin: 0.5vh 0vh 1vh 0vh;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formulario 10</title>
+  </head>
+  <body>
+    <form method="post">
+      <label>Nombre</label>
+      <input type="text" name="nombre" id="nombre" placeholder="nombre" /><br />
+      <label>Email</label>
+      <input type="email" name="mail" id="mail" placeholder="mail" /><br />
+      <label>Teléfono</label>
+      <input
+        type="text"
+        name="telefono"
+        id="telefono"
+        placeholder="Su telédono"
+      /><br />
+      <fieldset>
+        <legend>Lenguajes que conoce</legend>
+        <p class="col">
+          <label class="field1">Javascript</label>
+          <input class="field1" type="checkbox" value="Javascript" /><br />
+        </p>
+        <p class="col">
+          <label class="field1">PHP</label>
+          <input class="field1" type="checkbox" value="PHP" /><br />
+        </p>
+        <p class="col">
+          <label class="field1">NodeJS</label>
+          <input class="field1" type="checkbox" value="NodeJS" /><br />
+        </p>
+        <p class="col">
+          <label class="field1">Python</label>
+          <input class="field1" type="checkbox" value="Python" /><br />
+        </p>
+      </fieldset>
+      <label>Nivel de Inglés</label><br />
+      <p class="col">
+        <label class="field2">Bajo</label>
+        <input class="field2" type="radio" name="bajo" id="bajo" value="bajo"/><br />
+      </p>
+      <p class="col">
+        <label class="field2">Medio</label>
+        <input class="field2" type="radio" name="medio" id="medio" value="medio"/><br />
+      </p>
+      <p class="col">
+        <label class="field2">Alto</label>
+        <input class="field2" type="radio" name="alto" id="alto" value="alto"/><br />
+      </p>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
