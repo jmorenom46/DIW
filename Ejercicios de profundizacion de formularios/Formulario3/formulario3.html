@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formulario de plaza de club de deportes</title>
+  </head>
+  <body>
+    <form method="post" action="procesar.php">
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <label>Nombre: </label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="nombre"
+          required
+          pattern="[A-Za-z0-9]{5-40}"
+        /><br />
+        <label>Apellido: </label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="apellido"
+          required
+          pattern="[A-Za-z0-9]{5-40}"
+        /><br />
+        <label>¿Eres miembro del club? </label>
+        <input
+          type="checkbox"
+          name="miembro"
+          id="miembro"
+          value="miembro"
+          checked
+        /><br />
+        <label>Correo Electrónico: </label>
+        <input type="email" name="mail" id="mail" placeholder="mail valido" />
+      </fieldset>
+      <fieldset>
+        <legend>Datos de deporte</legend>
+        <label>Nombre del deporte </label>
+        <select name="deporte" id="deporte">
+          <option value="Paddle">Paddle</option>
+          <option value="Squash">Squash</option>
+          <option value="Tenis">Tenis</option>
+        </select>
+        <label>Fecha y hora de la reserva </label>
+        <input type="datetime" name="freserva" id="freserva" /><br />
+        <label>Acepto las normas del club</label>
+        <input
+          type="checkbox"
+          name="aceptar"
+          id="aceptar"
+          value="aceptar"
+        /><br />
+        <input
+          class="centrar"
+          type="submit"
+          name="enviar"
+          id="enviar"
+          value="Enviar"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario Calculo</title>
+</head>
+<body>
+    <form method="post" action="procesar.php">
+        <label>Precio </label>
+        <input type="number" name="precio" id="precio" pattern="[\d,]{0-2}"><br>
+        <label>Iva </label>
+        <select name="iva" id="iva">
+            <option value="reducido">10%</option>
+            <option value="completo">21%</option>
+        </select><br>
+        <label>Resultado </label>
+        <input type="text" name="resultado" id="resultado" readonly><br>
+        <input type="submit" name="calcular" id="calcular" value="Calcular">
+    </form>
+</body>
+</html>

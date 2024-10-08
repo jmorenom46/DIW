@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=ç, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formulario mensajes</title>
+  </head>
+  <body>
+    <form method="post" action="procesar.php">
+      <label>Nombre </label>
+      <input type="text" name="nombre" id="nombre" /><br />
+      <label>Turno </label>
+      <select name="tutno" id="turno">
+        <option value="mañana">Mañana</option>
+        <option value="tarde">Tarde</option></select
+      ><br />
+      <label>Materias </label>
+      <p>
+        <label>Física</label>
+        <input type="checkbox" name="fisica" id="fisica" value="fisica" /><br />
+        <label>Química</label>
+        <input
+          type="checkbox"
+          name="quimica"
+          id="quimica"
+          value="quimica"
+        /><br />
+        <label>Biologia</label>
+        <input
+          type="checkbox"
+          name="biologia"
+          id="biologia"
+          value="biologia"
+        /><br />
+        <label>Matemáticas</label>
+        <input
+          type="checkbox"
+          name="matematicas"
+          id="matematicas"
+          value="matematicas"
+        />
+      </p>
+      <label>Mensaje de texto</label><br />
+      <textarea name="texto" id="texto" cols="30" rows="4"></textarea><br />
+      <input type="hidden" name="origen" id="origen" value="Academia" />
+      <input type="submit" name="enviar" id="enviar" value="Enviar" />
+    </form>
+  </body>
+</html>

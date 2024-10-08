@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formulario Receta</title>
+  </head>
+  <body>
+    <form method="post" action="procesar.php">
+      <label>Nombre de receta </label>
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        maxlength="80"
+        required
+      /><br />
+      <label>Tipo de receta </label>
+      <select name="tipo" id="tipo" value="tipo">
+        <option value="carne">Carne</option>
+        <option value="pescado">Pescado</option>
+        <option value="fruta">Fruta</option></select
+      ><br />
+      <label>Seleccione la imagen </label>
+      <input type="file" name="imagen" id="imagen"><br>
+      <input type="submit" name="enviar" id="enviar" value="Enviar">
+    </form>
+  </body>
+</html>

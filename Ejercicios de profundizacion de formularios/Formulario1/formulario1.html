@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <form method="post" action="procesar.php"></form>
+    <label>Nombre: </label>
+    <input type="text" name="nombre" id="nombre" placeholder="nombre" maxlength="20" required><br>
+    <label>Apellidos: </label>
+    <input type="text" name="apellidos" id="apellidos" placeholder="apellidos" required><br>
+    <label>Sexo </label>
+    <select name="sexo" id="sexo">
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+    </select><br>
+    <label>Correo electronico: </label>
+    <input type="email" name="mail" id="mail" placeholder="mail valido" required><br>
+    <label>Deseo recibir información sobre novedades y ofertas </label>
+    <input type="checkbox" name="ofertas" id="ofertas" value="ofertas" checked><br>
+    <label>Acepto las condiciones generales del sitio sobre proteccion de datos </label>
+    <input type="checkbox" name="datos" id="datos" value="datos">
+    <input type="submit" value="Enviar">
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario tienda de libros</title>
+</head>
+<body>
+    <form method="post" action="procesar.php">
+        <label>Nombre </label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label>Apellidos </label>
+        <input type="text" name="Apellidos" id="apellidos">
+        <label>Teléfono </label>
+        <input type="tel" name="telefono" id="telefono"><br>
+        <label>Password </label>
+        <input type="password" name="password" id="password" minlength="8"><br>
+        <label>Areas de interes </label>
+        <select name="areas" id="areas">
+            <option value="diseño">Programacion de diseño</option>
+            <option value="ciencias">Ciencias</option>
+        </select><br>
+        <label>Fecha de nacimiento </label>
+        <input type="date" name="fnacimiento" id="fnacimiento"><br>
+        <label>Acepto los terminos de proteccion de datos </label>
+        <input type="checkbox" name="aceptar" id="aceptar"><br>
+        <input class="centrar" type="enviar" name="enviar" id="enviar" value="Enviar">
+    </form>
+</body>
+</html>
