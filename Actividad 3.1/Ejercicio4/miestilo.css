@@ -2,3 +2,9 @@ h1{
     font-size: 30px;
     color: navy;
 }
+body{
+    background-color: lightcyan;
+}
+p{
+    color: red;
+}
