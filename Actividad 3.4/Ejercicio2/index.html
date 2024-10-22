@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Horario</title>
+  </head>
+  <body>
+    <form action="post">
+      <table>
+        <header>HORARIO DE CLASE CURSO 2018-2019</header>
+        <tr>
+          <td>Horas</td>
+          <td>Lunes</td>
+          <td>Martes</td>
+          <td>Miercoles</td>
+          <td>Jueves</td>
+          <td>Viernes</td>
+        </tr>
+        <tr>
+          <th>8:00</th>
+          <th rowspan="2">Matematicas</th>
+          <th>Lengua</th>
+          <th>Inglés</th>
+          <th colspan="2">Ciencias</th>
+        </tr>
+        <tr>
+          <th>9:00</th>
+          <th>Historia</th>
+          <th>Ciencias</th>
+          <th>Matematicas</th>
+          <th>Lengua</th>
+        </tr>
+        <tr>
+          <th>10:00</th>
+          <th colspan="5">RECREO</th>
+        </tr>
+        <tr>
+          <th>10:30</th>
+          <th>Inglés</th>
+          <th rowspan="2">Ciencias</th>
+          <th>Matematicas</th>
+          <th>Lengua</th>
+          <th>Historia</th>
+        </tr>
+        <tr>
+          <th>11:30</th>
+          <th>Historia</th>
+          <th>Ciencias</th>
+          <th>Matematicas</th>
+          <th>Inglés</th>
+        </tr>
+      </table>
+      <label>Email*</label>
+      <input type="email" name="mail" id="mail" /><br />
+      <input type="submit" value="Enviar Horario" />
+    </form>
+  </body>
+</html>

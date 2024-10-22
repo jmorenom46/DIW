@@ -1,0 +1,34 @@
+form{
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    color: green;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr td, tr th{
+    border: 1px solid black;}
+
+td::first-letter{
+    font-size: 25px;
+}
+td{
+    font-weight: bold;
+}
+th{
+    font-weight: normal;
+}
+th:first-child{
+    background-color: green;
+}
+th{
+    background-color: yellow;
+    font-weight: bold;
+}
