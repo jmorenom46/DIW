@@ -28,7 +28,3 @@ th{
 th:first-child{
     background-color: green;
 }
-th{
-    background-color: yellow;
-    font-weight: bold;
-}
