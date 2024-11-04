@@ -1,0 +1,21 @@
+
+.container{
+    width: 60em;
+    margin: auto;
+    display: flex;
+}
+.izquierda{
+    width: 16em;
+}
+.derecha{
+    width: 44em;
+}
+h1{
+    text-align: center;
+}
+.lista{
+    display: flex;
+}
+.caract{
+    width: 14em;
+}
