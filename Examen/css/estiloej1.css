@@ -1,0 +1,87 @@
+/*Javier Moreno Merino*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap') screen;
+
+body{
+    background-color: #f4f4f4;
+    color: #0b0b0a;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+header{
+    background-color: #333;
+    margin: 0vh, auto;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    margin: auto;
+    width: 35%;
+    text-align: center;
+    padding: 1vh;
+}
+form{
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+#anio{
+    font-weight: bold;
+}
+#curso{
+    font-weight: bold;
+}
+h2, h3{
+    text-align: center;
+}
+form p{
+    text-align: left;
+}
+select{
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    width: 40%;
+    padding: 1vh;
+    margin-bottom: 2vh;
+}
+nav ul li{
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:link{
+    color: white;
+}
+nav ul li a:hover{
+    color: #a9065d;
+}
+nav ul li a:visited{
+    color: white;
+}
+ul{
+    text-align: justify;
+}
+#enviar{
+    background-color: #a9065d;
+    border: 1px solid #a9065d;
+    color: white;
+    border-radius: 5px;
+}
+#enviar:hover{
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+input::placeholder{
+    color: #999;
+}

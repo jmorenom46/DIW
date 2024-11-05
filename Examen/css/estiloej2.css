@@ -1,0 +1,72 @@
+/*Javier Moreno Merino*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap') screen;
+
+body{
+    background-color: #f4f4f4;
+    color: #0b0b0a;
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: #333;
+    margin: 0vh, auto;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    margin: auto;
+    text-align: center;
+    padding: 1vh;
+}
+.button img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.button-container a{
+    margin: auto;
+    display: grid;
+    background-color: white;
+    width: 10%;
+    border: 3px solid #4CAF50;
+    border-radius: 4px;
+    padding: 1%;
+    text-decoration: none;
+}
+.button-container a:hover{
+    background-color: #4CAF50;
+}
+.button-container{
+    margin: auto;
+    display: flex;
+    margin-bottom: 3%;
+}
+span{
+    color: #0b0b0a;
+}
+nav ul{
+    list-style-type: none;
+    padding: 1vh;
+    margin-bottom: 2vh;
+}
+ul{
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:link{
+    color: white;
+}
+nav ul li a:hover{
+    color: #a9065d;
+}
+nav ul li a:visited{
+    color: white;
+}
+li{
+    margin: auto;
+}
