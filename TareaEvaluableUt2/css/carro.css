@@ -1,3 +1,139 @@
-.producto{
+body{
+    margin: auto;
+    text-align: center;
+    background-color: #AFAEAA;
+    font-family: 'Inria Serif', serif;
+}
+header{
+    margin-bottom: 1%;
+}
+nav{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFE500;
+    width: 95%;
     border: 1px solid black;
+    border-radius: 26px;
+}
+nav button{
+    margin-left: 1%;
+    border-radius: 26px;
+    border: 1px solid black;
+    background-color: #AFAEAA;
+    padding-left: 2%;
+    padding-right: 2%;
+    transform: scale(0.7);
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 1%;
+    width: 45%;
+}
+nav ul li{
+    width: 100%;
+    display: inline;
+    padding: 2vh;
+    background-color: #AFAEAA;
+    border: 1px solid black;
+    border-radius: 26px;
+}
+nav ul li:hover{
+    background-color: white;
+}
+.active{
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    margin: auto;
+    display: flex;
+    width: 93%;
+}
+.productos{
+    border: 1px solid black;
+    border-radius: 26px;
+    background-color: #FFE500; 
+    text-align: left;
+    width: 86%;
+}
+
+.producto{
+    margin: auto;
+    margin-bottom: 1%;
+    display: flex;
+    background-color: #DCD7A3;
+    width: 1300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 26px;
+}
+.producto img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 26px;
+    background-color: black;
+    color: white;
+}
+.valoracion{
+    display: flex;
+}
+.valoracion img{
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+    border: 0px;
+}
+
+
+
+
+
+.comunidad{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color: #FFE500;
+    width: 12.5%;
+    border: 1px solid black;
+    border-radius: 26px;
+    height: 1170px;
+    align-items: center;  
+}
+.comunidad h3{
+    font-size: 25px;
+    align-self: center;
+    text-align: left;
+}
+.comunidad p{
+    background-color: #DCD7A3;
+    padding: 280% 1% 280% 1%;
+    border-radius: 26px;
+    border: 1px solid black;
+    transform: scale(1.2);
+}
+.comunidad button{
+    margin: auto;
+    margin-bottom: 15%;
+    border-radius: 26px;
+    padding: 4% 15% 4% 15%;
+    border: 1px solid black;
+    background-color: #ffffff;
+    transform: scale(1.5);
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/iniciosesion.css" />
-    <title>Document</title>
+    <title>Cuenta</title>
   </head>
   <body>
     <header>
@@ -17,20 +17,39 @@
           <li><a href="principal.html">Información</a></li>
           <li><a href="productos.html">Productos</a></li>
           <li><a href="carro.html">Carro</a></li>
-          <li><a href="iniciosesion.html">Cuenta</a></li>
+          <li class="active"><a href="iniciosesion.html">Cuenta</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="container">
         <form action="" method="post">
-            <h2>Iniciar Sesion</h2>
-            <select name="email" id="email"><img src="img/placeholder.png" alt="placeholder">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option></select>
+          <h2>Iniciar Sesion</h2>
+          <select name="email" id="email">
+            <img src="img/placeholder.png" alt="placeholder" />
+            <option value="Email1">Email1</option>
+            <option value="Email2">Email2</option>
+            <option value="Email3">Email3</option>
+          </select>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Correo Electronico"
+          />
+          <input
+            type="text"
+            name="contraseña"
+            id="contraseña"
+            placeholder="Contraseña"
+          />
+          <button>Iniciar Sesion</button>
         </form>
+        <hr class="linea-horizontal" />
+        <p>Si no tienes cuenta registrate aqui</p>
+        <button id="registro">Registro</button>
       </div>
+      <hr class="linea-vertical" />
       <div class="comunidad">
         <h3>Comunidad</h3>
         <ul>

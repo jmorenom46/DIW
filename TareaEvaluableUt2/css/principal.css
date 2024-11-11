@@ -76,24 +76,78 @@ a{
 main{
     margin: auto;
     display: flex;
-    width: 95%;
+    width: 93%;
 }
 .informacion{
-    margin: auto;
     background-color: #FFE500;
-    width: 85%;
+    width: 86%;
     height: auto;
     border: 1px solid black;
     border-radius: 26px;
 }
+.informacion h2{
+    padding: 1%;
+    font-size: 55px;
+    display: grid;
+}
+.imagenIzquierda{
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+}
+.imagenIzquierda img{
+    background-color: black;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 26px;
+    color: white;
+}
+.imagenIzquierda p{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #DCD7A3;
+    height: 250px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 26px;
+    width: 1200px;
+}
+.imagenDerecha{
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+}
+.imagenDerecha img{
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 26px;
+}
+.imagenDerecha p{
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #DCD7A3;
+    height: 250px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 26px;
+    width: 1200px;
+}
+
 
 .comunidad{
     text-align: center;
-    margin: auto;
+    margin-left: auto;
     background-color: #FFE500;
     width: 12.5%;
     border: 1px solid black;
     border-radius: 26px;
+    margin-bottom: auto;
 }
 .comunidad ul{
     text-align: center;
@@ -105,18 +159,8 @@ main{
 .comunidad ul li{
     padding: 10%;
     margin-bottom: 5%;
+    margin-left: 15%;
     width: 45%;
     background-color: #AFAEAA;
     border-radius: 26px;
-}
-
-.imagenIzquierda{
-    margin: auto;
-    display: flex;
-    width: 90%;
-}
-.imagenDerecha{
-    margin: auto;
-    display: flex;
-    width: 90%;
 }
