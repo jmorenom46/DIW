@@ -1,0 +1,4 @@
+body{
+    width: calc(80% - 10px); 
+    /* Resultado: El 80% del ancho disponible menos 10px*/
+}

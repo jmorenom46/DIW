@@ -1,0 +1,4 @@
+body{
+    width: calc(2 * 50%); 
+    /* Resultado: El doble del 50% del ancho disponible */
+}

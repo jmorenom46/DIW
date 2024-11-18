@@ -1,0 +1,4 @@
+body{
+    width: calc((100px + 10%) / 3); 
+    /* Resultado: El resultado de la operación combinada */
+}

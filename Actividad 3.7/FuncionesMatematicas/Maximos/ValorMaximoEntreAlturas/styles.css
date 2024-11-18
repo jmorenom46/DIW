@@ -1,0 +1,4 @@
+body{
+    height: max(100px, 150px, 50%); /* Resultado: El valor máximo entre 100px,
+    150px y el 50% del alto disponible */    
+}

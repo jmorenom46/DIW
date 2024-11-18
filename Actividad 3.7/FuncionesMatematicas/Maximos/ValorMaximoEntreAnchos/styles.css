@@ -1,0 +1,4 @@
+body{
+    width: max(200px, 50%); /* Resultado: El valor máximo entre 200px y el 50% del
+    ancho disponible */
+}

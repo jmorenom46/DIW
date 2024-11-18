@@ -1,0 +1,5 @@
+body{
+    height: min(100px, 150px, 50%); 
+    /* Resultado: El valor mínimo entre 100px, 150px y el 50% del alto disponible */
+
+}

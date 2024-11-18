@@ -1,0 +1,4 @@
+body{
+    font-size: round(1.2345, 2); 
+    /* Resultado: 1.23 */
+}

@@ -1,0 +1,5 @@
+body{
+    font-size: min(16px, 1.2em); 
+    /* Resultado: El valor mínimo entre 16px y 1.2 veces el tamaño de fuente actual */
+
+}

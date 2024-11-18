@@ -1,0 +1,2 @@
+- Logo debe llevar a la pagina principal.
+- Cambiar principal.html por index.html.
